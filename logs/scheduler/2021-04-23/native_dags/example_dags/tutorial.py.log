@@ -1,0 +1,21 @@
+[2021-04-23 15:32:14,699] {scheduler_job.py:182} INFO - Started process (PID=737) to work on /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-04-23 15:32:14,700] {scheduler_job.py:629} INFO - Processing file /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-04-23 15:32:14,701] {logging_mixin.py:104} INFO - [2021-04-23 15:32:14,701] {dagbag.py:451} INFO - Filling up the DagBag from /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-04-23 15:32:14,714] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-04-23 15:32:14,729] {logging_mixin.py:104} INFO - [2021-04-23 15:32:14,729] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-23 15:32:14,738] {logging_mixin.py:104} INFO - [2021-04-23 15:32:14,738] {dag.py:2280} INFO - Setting next_dagrun for tutorial to 2021-04-21 00:00:00+00:00
+[2021-04-23 15:32:14,761] {scheduler_job.py:190} INFO - Processing /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2021-04-23 15:32:45,612] {scheduler_job.py:182} INFO - Started process (PID=771) to work on /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-04-23 15:32:45,613] {scheduler_job.py:629} INFO - Processing file /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-04-23 15:32:45,613] {logging_mixin.py:104} INFO - [2021-04-23 15:32:45,613] {dagbag.py:451} INFO - Filling up the DagBag from /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-04-23 15:32:45,623] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-04-23 15:32:45,632] {logging_mixin.py:104} INFO - [2021-04-23 15:32:45,632] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-23 15:32:45,639] {logging_mixin.py:104} INFO - [2021-04-23 15:32:45,639] {dag.py:2280} INFO - Setting next_dagrun for tutorial to 2021-04-21 00:00:00+00:00
+[2021-04-23 15:32:45,652] {scheduler_job.py:190} INFO - Processing /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.042 seconds
+[2021-04-23 15:33:31,001] {scheduler_job.py:182} INFO - Started process (PID=827) to work on /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-04-23 15:33:31,002] {scheduler_job.py:629} INFO - Processing file /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-04-23 15:33:31,003] {logging_mixin.py:104} INFO - [2021-04-23 15:33:31,003] {dagbag.py:451} INFO - Filling up the DagBag from /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-04-23 15:33:31,013] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-04-23 15:33:31,024] {logging_mixin.py:104} INFO - [2021-04-23 15:33:31,024] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-23 15:33:31,035] {logging_mixin.py:104} INFO - [2021-04-23 15:33:31,035] {dag.py:2280} INFO - Setting next_dagrun for tutorial to 2021-04-21 00:00:00+00:00
+[2021-04-23 15:33:31,050] {scheduler_job.py:190} INFO - Processing /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds

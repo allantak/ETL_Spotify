@@ -1,0 +1,206 @@
+[2021-04-23 15:31:49,672] {dag_processing.py:601} INFO - Processing files using up to 1 processes at a time 
+[2021-04-23 15:31:49,672] {dag_processing.py:602} INFO - Process each file at most once every 30 seconds
+[2021-04-23 15:31:49,672] {dag_processing.py:603} INFO - Checking for new files in /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags every 300 seconds
+[2021-04-23 15:31:49,672] {dag_processing.py:752} INFO - Searching for files in /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags
+[2021-04-23 15:31:49,686] {dag_processing.py:755} INFO - There are 27 files in /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags
+[2021-04-23 15:31:49,709] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:31:49,709] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:26:49.709640+00:00
+[2021-04-23 15:31:49,830] {dag_processing.py:859} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags/spotify_Dag.py                                                                                                               0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.11s           2021-04-23T18:31:49
+================================================================================
+[2021-04-23 15:31:59,808] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:31:59,809] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:26:59.809105+00:00
+[2021-04-23 15:32:10,121] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:32:10,121] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:27:10.121451+00:00
+[2021-04-23 15:32:20,430] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:32:20,430] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:27:20.430485+00:00
+[2021-04-23 15:32:20,549] {dag_processing.py:859} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-04-23T18:31:53
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags/spotify_Dag.py                                                                                                               1           0  0.11s           2021-04-23T18:32:07
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-04-23T18:32:04
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.11s           2021-04-23T18:32:01
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.11s           2021-04-23T18:31:54
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.11s           2021-04-23T18:32:06
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.11s           2021-04-23T18:31:59
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.11s           2021-04-23T18:32:08
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                1           0  0.11s           2021-04-23T18:31:52
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.11s           2021-04-23T18:32:05
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.11s           2021-04-23T18:32:11
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.11s           2021-04-23T18:32:10
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.11s           2021-04-23T18:31:57
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2021-04-23T18:31:50
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.11s           2021-04-23T18:32:12
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2021-04-23T18:31:59
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.11s           2021-04-23T18:32:04
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.11s           2021-04-23T18:31:58
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.11s           2021-04-23T18:32:02
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.11s           2021-04-23T18:32:20
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.11s           2021-04-23T18:32:13
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.11s           2021-04-23T18:32:14
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.11s           2021-04-23T18:32:09
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.11s           2021-04-23T18:31:55
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.11s           2021-04-23T18:31:54
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.11s           2021-04-23T18:32:03
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.11s           2021-04-23T18:32:15
+================================================================================
+[2021-04-23 15:32:30,744] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:32:30,744] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:27:30.744786+00:00
+[2021-04-23 15:32:41,048] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:32:41,049] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:27:41.049172+00:00
+[2021-04-23 15:32:51,113] {dag_processing.py:859} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-04-23T18:32:23
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags/spotify_Dag.py                                                                                                               1           0  0.11s           2021-04-23T18:32:40
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-04-23T18:32:36
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.11s           2021-04-23T18:32:32
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.11s           2021-04-23T18:32:25
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.11s           2021-04-23T18:32:38
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.11s           2021-04-23T18:32:30
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.11s           2021-04-23T18:32:39
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                1           0  0.11s           2021-04-23T18:32:22
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.11s           2021-04-23T18:32:37
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.11s           2021-04-23T18:32:44
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.11s           2021-04-23T18:32:42
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.11s           2021-04-23T18:32:27
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2021-04-23T18:32:21
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.11s           2021-04-23T18:32:43
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2021-04-23T18:32:30
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.11s           2021-04-23T18:32:34
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.11s           2021-04-23T18:32:29
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.11s           2021-04-23T18:32:33
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.11s           2021-04-23T18:32:51
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.11s           2021-04-23T18:32:46
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.11s           2021-04-23T18:32:45
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.11s           2021-04-23T18:32:41
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.11s           2021-04-23T18:32:26
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.11s           2021-04-23T18:32:25
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.11s           2021-04-23T18:32:34
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.11s           2021-04-23T18:32:47
+================================================================================
+[2021-04-23 15:32:51,351] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:32:51,352] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:27:51.352169+00:00
+[2021-04-23 15:33:01,539] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:33:01,539] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:28:01.539605+00:00
+[2021-04-23 15:33:12,270] {dag_processing.py:601} INFO - Processing files using up to 1 processes at a time 
+[2021-04-23 15:33:12,271] {dag_processing.py:602} INFO - Process each file at most once every 30 seconds
+[2021-04-23 15:33:12,271] {dag_processing.py:603} INFO - Checking for new files in /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags every 300 seconds
+[2021-04-23 15:33:12,271] {dag_processing.py:752} INFO - Searching for files in /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags
+[2021-04-23 15:33:12,286] {dag_processing.py:755} INFO - There are 27 files in /c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags
+[2021-04-23 15:33:12,308] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:33:12,308] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:28:12.308435+00:00
+[2021-04-23 15:33:12,429] {dag_processing.py:859} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags/spotify_Dag.py                                                                                                               0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         0           0
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-04-23T18:33:12
+================================================================================
+[2021-04-23 15:33:22,406] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:33:22,407] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:28:22.407171+00:00
+[2021-04-23 15:33:32,721] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:33:32,721] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:28:32.721497+00:00
+[2021-04-23 15:33:43,020] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-04-23 15:33:43,020] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2021-04-23 18:28:43.020567+00:00
+[2021-04-23 15:33:43,137] {dag_processing.py:859} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-04-23T18:33:43
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/dags/spotify_Dag.py                                                                                                               1           0  0.11s           2021-04-23T18:33:27
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-04-23T18:33:16
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.11s           2021-04-23T18:33:35
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.11s           2021-04-23T18:33:22
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.11s           2021-04-23T18:33:18
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.11s           2021-04-23T18:33:27
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.11s           2021-04-23T18:33:36
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                1           0  0.11s           2021-04-23T18:33:29
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.11s           2021-04-23T18:33:37
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.11s           2021-04-23T18:33:32
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.11s           2021-04-23T18:33:33
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.11s           2021-04-23T18:33:20
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2021-04-23T18:33:27
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.11s           2021-04-23T18:33:21
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2021-04-23T18:33:19
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.11s           2021-04-23T18:33:32
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.11s           2021-04-23T18:33:13
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.11s           2021-04-23T18:33:25
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.11s           2021-04-23T18:33:37
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.11s           2021-04-23T18:33:28
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.11s           2021-04-23T18:33:31
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.11s           2021-04-23T18:33:17
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.11s           2021-04-23T18:33:14
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.11s           2021-04-23T18:33:24
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.11s           2021-04-23T18:33:23
+/c/Users/Usuario/Desktop/Projetos/MyProjetos/Spotify/airflow-env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.11s           2021-04-23T18:33:15
+================================================================================
+[2021-04-23 15:33:51,389] {dag_processing.py:582} INFO - Exiting gracefully upon receiving signal 15
+[2021-04-23 15:33:51,389] {dag_processing.py:582} INFO - Exiting gracefully upon receiving signal 15
